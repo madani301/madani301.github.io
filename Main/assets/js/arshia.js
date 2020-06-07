@@ -87,7 +87,7 @@ function headerSticky(){
 
     "use strict";
 
-    if ($window.scrollTop() > 50) {
+    if ($window.scrollTop() > 100) {
         $('#header').addClass('header-sticky');
     } else {
         $('#header').removeClass('header-sticky');
@@ -285,37 +285,37 @@ function sliderOwlCarousel(){
         $('.owl-item.active .hero-slide').addClass("zoom");
     });
 }
-/*-------------------------
-    MENU TOGGLER
--------------------------*/
-function PillMenuToggler() {
+// /*-------------------------
+//     MENU TOGGLER
+// -------------------------*/
+// function PillMenuToggler() {
 
-    "use strict";
-    $(".overlay-menu-toggler").click(function(){
-        $(".overlay-menu").addClass("show");
-    });
-    $(".overlay-menu").click(function(){
-        $(this).removeClass("show");
-    });
-}
+//     "use strict";
+//     $(".overlay-menu-toggler").click(function(){
+//         $(".overlay-menu").addClass("show");
+//     });
+//     $(".overlay-menu").click(function(){
+//         $(this).removeClass("show");
+//     });
+// }
 
-function  menuToggler() {
-    "use strict";
-    var $menuToggler = $(".menu-toggler");
-    var $header = $('header');
-    $menuToggler.click(function () {
-        $(this).toggleClass('open').find('i').toggleClass('lni-menu lni-close ');
-        $header.toggleClass('open');
-        $('.color-scheme, .pallet-button, .color-pallet').toggleClass('hide');
-    });
-    if ($window.width() < 1200){
-        $('header li a').click(function () {
-            $header.removeClass('open');
-            $('.color-scheme, .pallet-button, .color-pallet').toggleClass('hide');
-            $menuToggler.removeClass('open').find('i').removeClass('lni-close').addClass('lni-menu');
-        })
-    }
-}
+// function  menuToggler() {
+//     "use strict";
+//     var $menuToggler = $(".menu-toggler");
+//     var $header = $('header');
+//     $menuToggler.click(function () {
+//         $(this).toggleClass('open').find('i').toggleClass('lni-menu lni-close ');
+//         $header.toggleClass('open');
+//         $('.color-scheme, .pallet-button, .color-pallet').toggleClass('hide');
+//     });
+//     if ($window.width() < 1200){
+//         $('header li a').click(function () {
+//             $header.removeClass('open');
+//             $('.color-scheme, .pallet-button, .color-pallet').toggleClass('hide');
+//             $menuToggler.removeClass('open').find('i').removeClass('lni-close').addClass('lni-menu');
+//         })
+//     }
+// }
 /*-------------------------
         TYPED JS
 -------------------------*/
