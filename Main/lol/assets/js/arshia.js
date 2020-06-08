@@ -471,7 +471,7 @@ function clientCarousel() {
         margin: 30,
         stagePadding: 5,
         nav: false,
-        autoplay: false,
+        autoplay: true,
         dots: true,
         mouseDrag: true,
         touchDrag: true,
