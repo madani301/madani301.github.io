@@ -749,7 +749,7 @@ canvas.particles-js-canvas-el {
   opacity: 0.1;
 }
 
-.hero-05 .hero-item1 {
+/* .hero-05 .hero-item1 {
   background: url("/photo3.jpg") no-repeat;
   background-position: center left;
 }
@@ -760,7 +760,7 @@ canvas.particles-js-canvas-el {
 
 .hero-05 .hero-item3 {
   background: url("/photo5.jpg") no-repeat center;
-}
+} */
 
 .hero-05 .hero-slide {
   background-size: 100%;
@@ -1641,6 +1641,35 @@ canvas.particles-js-canvas-el {
   .hero-04 .swiper-button-prev, .hero-04 .swiper-container-rtl .swiper-button-next {
     right: 50%;
   }
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background: #ff645e;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+  background: #ff645e;
+  color: #fff;
 }
 
 /*-------------------------
