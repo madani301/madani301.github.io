@@ -184,31 +184,31 @@ function ColorPallet() {
     "use strict";
 
     $("ul.pattern .color1").click(function () {
-        return $("#option-color").attr("href", "assets/css/color/green-color.css"), !1
+        return $("#option-color").attr("href", "/Main/assets/css/color/green-color.css"), !1
     });
     $("ul.pattern .color2").click(function () {
-        return $("#option-color").attr("href", "assets/css/color/yellow-color.css"), !1
+        return $("#option-color").attr("href", "/Main/assets/css/color/yellow-color.css"), !1
     });
     $("ul.pattern .color3").click(function () {
-        return $("#option-color").attr("href", "assets/css/color/golden-color.css"), !1
+        return $("#option-color").attr("href", "/Main/assets/css/color/golden-color.css"), !1
     });
     $("ul.pattern .color4").click(function () {
-        return $("#option-color").attr("href", "assets/css/color/sky-blue-color.css"), !1
+        return $("#option-color").attr("href", "/Main/assets/css/color/sky-blue-color.css"), !1
     });
     $("ul.pattern .color5").click(function () {
-        return $("#option-color").attr("href", "assets/css/color/blue-color.css"), !1
+        return $("#option-color").attr("href", "/Main/assets/css/color/blue-color.css"), !1
     });
     $("ul.pattern .color6").click(function () {
-        return $("#option-color").attr("href", "assets/css/color/purple-color.css"), !1
+        return $("#option-color").attr("href", "/Main/assets/css/color/purple-color.css"), !1
     });
     $("ul.pattern .color7").click(function () {
-        return $("#option-color").attr("href", "assets/css/color/orange-color.css"), !1
+        return $("#option-color").attr("href", "/Main/assets/css/color/orange-color.css"), !1
     });
     $("ul.pattern .color8").click(function () {
-        return $("#option-color").attr("href", "assets/css/color/pink-color.css"), !1
+        return $("#option-color").attr("href", "/Main/assets/css/color/pink-color.css"), !1
     });
     $("ul.pattern .color9").click(function () {
-        return $("#option-color").attr("href", "assets/css/color/red-color.css"), !1
+        return $("#option-color").attr("href", "/Main/assets/css/color/red-color.css"), !1
     });
     $("#color-switcher .pallet-button").click(function () {
         return $("#color-switcher .color-pallet").toggleClass('show'), !1
