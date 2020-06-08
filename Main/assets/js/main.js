@@ -26,6 +26,7 @@ $(document).ready(function () {
     // PillMenuToggler();
     // menuToggler();
     typedJS();
+    typedJS2();
     portfolioPopup();
     clientCarousel();
     BlogCarousel();
@@ -34,8 +35,8 @@ $(document).ready(function () {
 });
 
 $window.on("load", (function() {
-    $("#overlayer").delay(500).fadeOut('slow');
-    $(".loader").delay(1000).fadeOut('slow');
+    $("#overlayer").delay(250).fadeOut('slow');
+    $(".loader").delay(500).fadeOut('slow');
     portfolioIsotop();
     headerSticky();
     ChangeColor();
@@ -357,6 +358,23 @@ function typedJS() {
         loop: true
     };
     var typed = new Typed(".element", options);
+}
+
+/*-------------------------
+        TYPED JS
+-------------------------*/
+function typedJS2() {
+
+    "use strict";
+
+    var option = {
+        strings: $(".element1").attr('data-elements1').split(','),
+        typeSpeed: 100,
+        backDelay: 3000,
+        backSpeed: 50,
+        loop: true
+    };
+    var typed1 = new Typed(".element1", option);
 }
 /*-------------------------
           Skills
