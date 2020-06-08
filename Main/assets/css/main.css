@@ -750,7 +750,7 @@ canvas.particles-js-canvas-el {
   opacity: 0.1;
 }
 
-.hero-05 .hero-item1 {
+/* .hero-05 .hero-item1 {
   background: url("/photo3.jpg") no-repeat;
   background-position: center left;
 }
@@ -761,7 +761,7 @@ canvas.particles-js-canvas-el {
 
 .hero-05 .hero-item3 {
   background: url("/photo5.jpg") no-repeat center;
-}
+} */
 
 .hero-05 .hero-slide {
   background-size: 100%;
