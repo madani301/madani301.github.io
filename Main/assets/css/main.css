@@ -295,7 +295,6 @@ a, button {
 .header {
   padding: 10px 0;
   transition: all 0.8s ease;
-  background-color: #fafafa;
 }
 
 .header nav a {
