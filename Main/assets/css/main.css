@@ -500,7 +500,7 @@ canvas.particles-js-canvas-el {
 .hero-02 {
   /* background: url("http://placehold.it/1920x1280") no-repeat; */
   background-size: cover;
-  box-shadow: inset 0 0 0 2000px rgba(241, 243, 246, 0.5);
+  /* box-shadow: inset 0 0 0 2000px rgba(241, 243, 246, 0.5); */
 }
 
 /*-------------------------
@@ -730,9 +730,6 @@ canvas.particles-js-canvas-el {
 /*-------------------------
           HERO-05
 -------------------------*/
-.hero-05 {
-  box-shadow: inset 0 0 0 2000px rgba(250, 250, 250, 0.9);
-}
 
 .hero-05 .hero-content {
   position: absolute;
@@ -747,9 +744,9 @@ canvas.particles-js-canvas-el {
   max-width: 500px;
 }
 
-.hero-05 #hero-slider {
+/* .hero-05 #hero-slider {
   opacity: 0.1;
-}
+} */
 
 /* .hero-05 .hero-item1 {
   background: url("http://placehold.it/1920x1280") no-repeat;
@@ -1754,9 +1751,9 @@ canvas.particles-js-canvas-el {
   color: #1a1a1a;
 }
 
-.arshia-dark .hero-05 {
+/* .arshia-dark .hero-05 {
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
-}
+} */
 
 .arshia-dark .hero-05 .scroll-down span {
   border: 3px solid #fafafa;
